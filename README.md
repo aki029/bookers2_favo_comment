@@ -28,3 +28,8 @@ Things you may want to cover:
 
 ## Details
 バリデーションはbefore_actionを用いています。
+いいね後の赤色と、カーソルを合わせたときの色の変化のために、追加でstylesheet_link_tagを設定しapplication.cssを読み込んでいます。
+
+### Changed
+configure_permitted_parametersの内容を変更しました。
+deviseのviewファイルをform_withヘルパーに変更しました。
